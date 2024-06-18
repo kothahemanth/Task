@@ -1,8 +1,16 @@
 {
   "scopes": [
     {
-      "name": "$XSAPPNAME.TaskAdmin",
-      "description": "TaskAdmin"
+      "name": "$XSAPPNAME.TaskWrite",
+      "description": "Task Create/Update"
+    },
+    {
+      "name": "$XSAPPNAME.TaskRead",
+      "description": "TaskRead"
+    },
+    {
+      "name": "$XSAPPNAME.TaskDelete",
+      "description": "TaskDelete"
     }
   ],
   "attributes": [],
@@ -11,7 +19,16 @@
       "name": "TaskAdmin",
       "description": "Role for Administration of Task",
       "scope-references": [
-        "$XSAPPNAME.TaskAdmin"
+        "$XSAPPNAME.TaskWrite",
+        "$XSAPPNAME.TaskRead",
+        "$XSAPPNAME.TaskDelete"
+      ]
+    },
+    {
+      "name": "TaskRead",
+      "description": "Role for Administration of Task",
+      "scope-references": [
+        "$XSAPPNAME.TaskRead"
       ]
     }
   ],
