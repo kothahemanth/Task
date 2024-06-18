@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Fri May 17 2024 15:45:58 GMT+0530 (India Standard Time)|
+|**Generation Date and Time**<br>Tue Jun 18 2024 15:52:54 GMT+0530 (India Standard Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.12.2|
 |**Generation Platform**<br>Visual Studio Code|
@@ -9,10 +9,10 @@
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/satinfotech/
 |**Module Name**<br>branch|
-|**Application Title**<br>Manage Branch|
+|**Application Title**<br>Branch Information|
 |**Namespace**<br>com.hemanth.satinfotech|
 |**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.124.0|
+|**UI5 Version**<br>1.124.1|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
@@ -20,7 +20,7 @@
 
 ## branch
 
-An SAP Fiori application.
+Branch Information
 
 ### Starting the generated app
 
