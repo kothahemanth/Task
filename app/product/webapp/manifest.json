@@ -1,7 +1,7 @@
 {
   "_version": "1.59.0",
   "sap.app": {
-    "id": "com.hemanth.satinfotech.branch",
+    "id": "product",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.12.2",
-      "toolsId": "cb0eb9f8-0532-416a-b8c3-20fb371ae254"
+      "toolsId": "1ca45303-a204-4517-aa25-ab99801da46e"
     },
     "dataSources": {
       "mainService": {
@@ -61,7 +61,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "com.hemanth.satinfotech.branch.i18n.i18n"
+          "bundleName": "product.i18n.i18n"
         }
       },
       "": {
@@ -87,42 +87,42 @@
       "routes": [
         {
           "pattern": ":?query:",
-          "name": "BranchList",
-          "target": "BranchList"
+          "name": "ProductLocalList",
+          "target": "ProductLocalList"
         },
         {
-          "pattern": "Branch({key}):?query:",
-          "name": "BranchObjectPage",
-          "target": "BranchObjectPage"
+          "pattern": "ProductLocal({key}):?query:",
+          "name": "ProductLocalObjectPage",
+          "target": "ProductLocalObjectPage"
         }
       ],
       "targets": {
-        "BranchList": {
+        "ProductLocalList": {
           "type": "Component",
-          "id": "BranchList",
+          "id": "ProductLocalList",
           "name": "sap.fe.templates.ListReport",
           "options": {
             "settings": {
-              "contextPath": "/Branch",
+              "contextPath": "/ProductLocal",
               "variantManagement": "Page",
               "navigation": {
-                "Branch": {
+                "ProductLocal": {
                   "detail": {
-                    "route": "BranchObjectPage"
+                    "route": "ProductLocalObjectPage"
                   }
                 }
               }
             }
           }
         },
-        "BranchObjectPage": {
+        "ProductLocalObjectPage": {
           "type": "Component",
-          "id": "BranchObjectPage",
+          "id": "ProductLocalObjectPage",
           "name": "sap.fe.templates.ObjectPage",
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/Branch"
+              "contextPath": "/ProductLocal"
             }
           }
         }

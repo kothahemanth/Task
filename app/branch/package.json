@@ -1,7 +1,7 @@
 {
     "name": "branch",
     "version": "0.0.1",
-    "description": "Branch Information",
+    "description": "An SAP Fiori application.",
     "keywords": [
         "ui5",
         "openui5",
